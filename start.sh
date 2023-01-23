@@ -42,7 +42,8 @@ Server_Dir=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 Conf_Dir="$Server_Dir/conf"
 Temp_Dir="$Server_Dir/temp"
 Log_Dir="$Server_Dir/logs"
-URL='更改为你的clash订阅地址'
+URL='https://api.fuqing.ch/sub?target=clash&emoji=true&udp=true&scv=true&new_name=true&filename=WD_Trojan&url=https%3A%2F%2Ffuqing.ch%2Fsubscribe%2Fzyrgm-ba03drrv
+'
 
 # 临时取消环境变量
 unset http_proxy
